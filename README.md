@@ -1,2 +1,2 @@
-# citc1300
+# mason
 the real one
