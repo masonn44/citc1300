@@ -1,3 +1,3 @@
 # Watch Frieren
 
-<a href="intro_to_html/index.html">Into to HTML
+<a href="HTML5/index.html">HTML5
