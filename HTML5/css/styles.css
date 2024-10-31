@@ -16,3 +16,13 @@ img {
     width: 1197px;
     border: 2px solid black;
 }
+
+nav {
+    text-align: center;
+    margin: 15px 0;
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+}
