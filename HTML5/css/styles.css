@@ -20,9 +20,19 @@ img {
 nav {
     text-align: center;
     margin: 15px 0;
+    font-size: larger;
 }
 
 header {
     text-align: center;
     font-size: xx-large;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, footer {
+    text-align: center;
 }
