@@ -57,9 +57,10 @@ nav a:hover {
 }
 
 .header_style {
-    text-shadow: 2px 2px 2px beige;
+    text-decoration: underline;
 }
 
 .charpic {
-    width: 399px;
+    width: 393px;
+    display: inline-block;
 }
