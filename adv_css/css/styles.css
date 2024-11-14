@@ -4,7 +4,7 @@ body {
 
 #container {
     background-color: white;
-    width: 1200px;
+    width: 65%;
     margin: 20px auto;
     border: 3px solid black;
     padding: 20px;
@@ -61,6 +61,10 @@ nav a:hover {
 }
 
 .charpic {
-    width: 393px;
+    width: 32%;
     display: inline-block;
+}
+
+.image {
+    width: 99.5%;
 }
