@@ -31,7 +31,7 @@ nav {
     text-align: center;
     margin: 15px 0;
     font-size: larger;
-    background-color:beige ;
+    background-color: beige;
     padding: 2px;
     border-radius: 10px;
 }
@@ -46,13 +46,12 @@ nav li {
 
 nav li a {
     display: block;
-    color:beige;
+    color: black;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
     margin: 0 10px;
 }
 
 nav a:hover {
-    background-color: white;
-    color: beige;
+    text-decoration: none;
 }
