@@ -17,22 +17,42 @@ img {
     border: 2px solid black;
 }
 
-nav {
-    text-align: center;
-    margin: 15px 0;
-    font-size: larger;
-}
-
 header {
     text-align: center;
     font-size: xx-large;
     font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: none;
-}
-
 h1, h2, h3, footer {
     text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 15px 0;
+    font-size: larger;
+    background-color:beige ;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    color:beige;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: beige;
 }
