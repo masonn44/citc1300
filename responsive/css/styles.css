@@ -120,16 +120,16 @@ header {
         width: 60%;
     }
     
-    .twothing {
+    #twothing {
         display: flex;
     }
 
-    #col {
+    .col {
         margin: 10px;
         padding: 10px;
     }
 
-    #visimg {
+    .visimg {
         width: 90%;
     }
 
