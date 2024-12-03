@@ -1,0 +1,136 @@
+/* global styles */
+
+body {
+    background-color: beige;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 98%;
+    
+}
+
+#container {
+    background-color: white;
+    border: 3px solid black;
+    padding: 15px;
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.charpic {
+        display: inline-block;
+        width: 30%;
+        
+    }
+
+/* mobile styles */
+
+@media (min-width: 320px) {
+    nav {
+        background-color: beige;
+        padding: 1px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        padding: 5px;
+    }
+
+    nav li a {
+        display: block;
+        height: 20px;
+        color: black;
+        font-weight: bold;
+        text-decoration: underline;
+        margin: 0 10px;
+    }
+
+    #container {
+        margin: 10px;
+    }
+    
+    main {
+        padding: 10px;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+        color: black;
+    }
+
+    footer {
+        text-align: center;
+        padding: 5px;
+    }
+
+    img {
+        width: 98%;
+    }
+
+}
+
+/* tablet styles */
+
+@media (min-width: 768px) {
+
+    nav li {
+        display: inline-block;
+    }
+    
+    
+    nav li a {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    img {
+        width: 75%;
+    }
+
+}
+
+/* desktop styles */
+
+@media (min-width: 1024px) {
+
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        padding: 30px;
+    }
+
+    img{
+        width: 60%;
+    }
+    
+    #twothing {
+        display: flex;
+    }
+
+    .col {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .visimg {
+        width: 90%;
+    }
+
+}
