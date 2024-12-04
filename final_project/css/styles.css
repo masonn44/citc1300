@@ -16,6 +16,7 @@ img {
     background-color: white;
     border: 3px solid black;
     padding: 15px;
+    font-family: "Libre Baskerville", serif;
 }
 
 header {
@@ -23,13 +24,23 @@ header {
     font-size: xx-large;
     font-weight: bold;
     text-decoration: underline;
+    font-family: "Libre Baskerville", serif;
 }
 
 .charpic {
         display: inline-block;
         width: 30%;
-        
     }
+
+#list {
+    text-align: left;
+}
+
+video {
+    display: block;
+    border: 2px solid black;
+    margin: 0 auto;
+}
 
 /* mobile styles */
 
